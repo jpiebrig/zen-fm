@@ -740,6 +740,44 @@ func TestHiddenOverrideAndExactTextSource(t *testing.T) {
 	}
 }
 
+func TestUnknownFileTypesCanPreviewEditAndSaveText(t *testing.T) {
+	a := newTestAPI(t)
+	cookie, csrf := a.finishSetup()
+	for _, name := range []string{"settings.conf", "notes.zenfm-unknown", ".gitignore", "data.bin"} {
+		t.Run(name, func(t *testing.T) {
+			const original = "enabled = true\n# café\n"
+			if _, err := a.files.Write(name, strings.NewReader(original), false); err != nil {
+				t.Fatal(err)
+			}
+			query := url.Values{"path": {"/" + name}}.Encode()
+			for _, endpoint := range []string{"preview", "content"} {
+				response := a.request(http.MethodGet, "/api/v1/files/"+endpoint+"?"+query, nil, cookie, "", "")
+				if response.Code != http.StatusOK || response.Body.String() != original || response.Header().Get("Content-Type") != "text/plain; charset=utf-8" {
+					t.Fatalf("%s: %d %q %#v", endpoint, response.Code, response.Body.String(), response.Header())
+				}
+			}
+			const edited = "enabled = false\n# café\n"
+			response := a.request(http.MethodPut, "/api/v1/files/content?"+query, strings.NewReader(edited), cookie, csrf, "")
+			if response.Code != http.StatusNoContent {
+				t.Fatalf("save: %d %s", response.Code, response.Body.String())
+			}
+			response = a.request(http.MethodGet, "/api/v1/files/content?"+query, nil, cookie, "", "")
+			if response.Code != http.StatusOK || response.Body.String() != edited {
+				t.Fatalf("saved source: %d %q", response.Code, response.Body.String())
+			}
+		})
+	}
+	if _, err := a.files.Write("invalid.zenfm-unknown", bytes.NewReader([]byte{0xff, 0xfe}), false); err != nil {
+		t.Fatal(err)
+	}
+	for _, endpoint := range []string{"preview", "content"} {
+		response := a.request(http.MethodGet, "/api/v1/files/"+endpoint+"?path=%2Finvalid.zenfm-unknown", nil, cookie, "", "")
+		if response.Code != http.StatusUnsupportedMediaType {
+			t.Fatalf("%s accepted invalid UTF-8: %d", endpoint, response.Code)
+		}
+	}
+}
+
 func TestPublicDirectoryNavigationCannotEscapeThroughSymlink(t *testing.T) {
 	a := newTestAPI(t)
 	cookie, csrf := a.finishSetup()
