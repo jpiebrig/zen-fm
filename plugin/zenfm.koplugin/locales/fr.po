@@ -1,16 +1,33 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ZenFM\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: jpiebrig <jpv69005@gmx.fr>\n"
+"Language-Team: \n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fr\n"
+"X-Generator: Poedit 3.4.2\n"
 
-msgid "%s wants to send %s\n\nType: %s\nFiles: %d\nSize: %s\nFingerprint: …%s"
+msgid ""
+"%s wants to send %s\n"
+"\n"
+"Type: %s\n"
+"Files: %d\n"
+"Size: %s\n"
+"Fingerprint: …%s"
 msgstr ""
+"%s souhaite envoyer %s\n"
+"\n"
+"Type : %s\n"
+"Fichiers : %d\n"
+"Taille : %s\n"
+"Empreinte : …%s"
 
 msgid "%s — %d%%"
-msgstr ""
+msgstr "%s — %d%%"
 
 msgid "1 day"
 msgstr "1 jour"
@@ -31,7 +48,7 @@ msgid "About {{eta}} remaining"
 msgstr "Environ {{eta}} restants"
 
 msgid "Accept"
-msgstr ""
+msgstr "Accepter"
 
 msgid "Advanced root mode is active. System files, device paths, and ZenFM secrets are visible and may be changed or deleted."
 msgstr "Le mode racine avancé est actif. Les fichiers système, les chemins d'accès aux appareils et les secrets ZenFM sont visibles et peuvent être modifiés ou supprimés."
@@ -64,7 +81,7 @@ msgid "Cancel"
 msgstr "Annuler"
 
 msgid "Cancel transfer"
-msgstr ""
+msgstr "Annuler le transfert"
 
 msgid "Change password"
 msgstr "Modifier le mot de passe"
@@ -97,7 +114,7 @@ msgid "Confirm password"
 msgstr "Confirmation du nouveau mot de passe"
 
 msgid "Copied"
-msgstr "Lien copié !"
+msgstr "Lien copié"
 
 msgid "Copy"
 msgstr "Copier"
@@ -115,7 +132,7 @@ msgid "Copying {{copied}} of {{total}} — {{progress}}%"
 msgstr "Copie de {{copied}} de {{total}} — {{progress}}%"
 
 msgid "Could not create a secure ZenFM Send request."
-msgstr ""
+msgstr "Impossible de créer une demande d’envoi ZenFM sécurisée."
 
 msgid "Could not read the Android companion result"
 msgstr "Impossible de lire le résultat du compagnon Android"
@@ -133,7 +150,7 @@ msgid "Create token"
 msgstr "Créer un jeton"
 
 msgid "Current password"
-msgstr "Mot de Passe Actuel"
+msgstr "Mot de Passe actuel"
 
 msgid "Custom root (blank uses device default)"
 msgstr "Racine personnalisée (le vide utilise la valeur par défaut de l'appareil)"
@@ -145,7 +162,7 @@ msgid "Date modified"
 msgstr "Dernière modification"
 
 msgid "Decline"
-msgstr ""
+msgstr "Baisse"
 
 msgid "Delete"
 msgstr "Supprimer"
@@ -223,7 +240,7 @@ msgid "Inactivity timeout: %d min"
 msgstr "Délai d'inactivité : %d min"
 
 msgid "Incoming ZenFM transfer ended."
-msgstr ""
+msgstr "Le transfert entrant de ZenFM est terminé."
 
 msgid "Installing ZenFM update…"
 msgstr "Installation de la mise à jour ZenFM…"
@@ -259,13 +276,13 @@ msgid "Listening port:"
 msgstr "Port d'écoute :"
 
 msgid "Loading…"
-msgstr "Chargement..."
+msgstr "Chargement…"
 
 msgid "Login reset. Use koreader123456789 and choose a new password."
 msgstr "Réinitialisation de la connexion. Utilisez koreader123456789 et choisissez un nouveau mot de passe."
 
 msgid "Looking for ZenFM devices…"
-msgstr ""
+msgstr "À la recherche d'appareils ZenFM…"
 
 msgid "Move"
 msgstr "Déplacer"
@@ -289,7 +306,7 @@ msgid "New Password"
 msgstr "Nouveau mot de passe"
 
 msgid "Next match"
-msgstr "Prochain match"
+msgstr "Prochaine correspondance"
 
 msgid "No matches"
 msgstr "Aucune correspondance"
@@ -298,13 +315,13 @@ msgid "No shared links"
 msgstr "Aucun lien partagé"
 
 msgid "No ZenFM devices found"
-msgstr ""
+msgstr "Aucun appareil ZenFM n'a été détecté"
 
 msgid "not configured"
 msgstr "non configuré"
 
 msgid "Nothing here yet"
-msgstr "C'est un peu désert ici..."
+msgstr "C'est un peu désert ici"
 
 msgid "Open"
 msgstr "Prévisualiser"
@@ -334,7 +351,7 @@ msgid "Port must be between 1 and 65535."
 msgstr "Le port doit être compris entre 1 et 65535."
 
 msgid "Port: "
-msgstr "Port:"
+msgstr "Port : "
 
 msgid "Preview is unavailable for this file."
 msgstr "L'aperçu n'est pas disponible pour ce fichier."
@@ -343,7 +360,7 @@ msgid "Previous match"
 msgstr "Match précédent"
 
 msgid "Received %s in %s"
-msgstr ""
+msgstr "%s reçu dans %s"
 
 msgid "Refresh"
 msgstr "Rafraîchir"
@@ -376,7 +393,7 @@ msgid "Restarting…"
 msgstr "Redémarrage…"
 
 msgid "Retry"
-msgstr ""
+msgstr "Réessayer"
 
 msgid "Revoke"
 msgstr "Révoquer"
@@ -385,7 +402,7 @@ msgid "Root"
 msgstr "Racine"
 
 msgid "Root: "
-msgstr "Racine:"
+msgstr "Racine : "
 
 msgid "Save"
 msgstr "Sauvegarder"
@@ -409,13 +426,13 @@ msgid "Search results"
 msgstr "Résultats de la recherche"
 
 msgid "Search this folder"
-msgstr "Recherche en cours..."
+msgstr "Rechercher dans ce dossier"
 
 msgid "Send with ZenFM"
-msgstr ""
+msgstr "Envoyer avec ZenFM"
 
 msgid "Sent %s to %s"
-msgstr ""
+msgstr "Envoyé %s à %s"
 
 msgid "Settings"
 msgstr "Paramètres"
@@ -493,7 +510,7 @@ msgid "The password is incorrect."
 msgstr "Le mot de passe est incorrect."
 
 msgid "The receiver declined the ZenFM transfer."
-msgstr ""
+msgstr "Le destinataire a refusé le transfert de ZenFM."
 
 msgid "Theme"
 msgstr "Thème"
@@ -574,7 +591,7 @@ msgid "ZenFM"
 msgstr "ZenFM"
 
 msgid "ZenFM device discovery failed."
-msgstr ""
+msgstr "Échec de la détection de l'appareil ZenFM."
 
 msgid "ZenFM is running."
 msgstr "ZenFM est en cours d'exécution."
@@ -589,13 +606,13 @@ msgid "ZenFM request pending…"
 msgstr "Demande ZenFM en attente…"
 
 msgid "ZenFM Send"
-msgstr ""
+msgstr "Envoi ZenFM"
 
 msgid "ZenFM Send failed."
-msgstr ""
+msgstr "Échec de l'envoi ZenFM."
 
 msgid "ZenFM Send requires HTTPS."
-msgstr ""
+msgstr "ZenFM Send nécessite le protocole HTTPS."
 
 msgid "ZenFM started."
 msgstr "ZenFM a démarré."
