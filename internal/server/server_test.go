@@ -499,6 +499,35 @@ func TestHeavyOperationCeilingRejectsExcessWork(t *testing.T) {
 	}
 }
 
+func TestSessionResponsesIncludeServerTime(t *testing.T) {
+	a := newTestAPI(t)
+	var cookie *http.Cookie
+	var csrf string
+	for _, request := range []struct {
+		method string
+		path   string
+		body   string
+	}{
+		{http.MethodPost, "/api/v1/session", `{"password":"` + state.SetupPassword + `"}`},
+		{http.MethodGet, "/api/v1/session", ""},
+		{http.MethodPut, "/api/v1/owner/password", `{"newPassword":"a secure owner password"}`},
+	} {
+		*a.now = a.now.Add(time.Second)
+		response := a.request(request.method, request.path, strings.NewReader(request.body), cookie, csrf, "")
+		if response.Code != http.StatusOK {
+			t.Fatalf("%s %s: %d %s", request.method, request.path, response.Code, response.Body.String())
+		}
+		payload := decodeMap(t, response)
+		if got := payload["serverTime"]; got != a.now.UTC().Format(time.RFC3339Nano) {
+			t.Fatalf("%s %s serverTime = %v, want %s", request.method, request.path, got, a.now.UTC().Format(time.RFC3339Nano))
+		}
+		if request.method != http.MethodGet {
+			cookie = responseCookie(t, response, sessionCookieName(a.server.cfg.SecureTransport))
+		}
+		csrf = payload["csrfToken"].(string)
+	}
+}
+
 func TestSetupGatePasswordRotationAndSessionExpiry(t *testing.T) {
 	a := newTestAPI(t)
 	cookie, csrf, _ := a.login(state.SetupPassword)
