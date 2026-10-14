@@ -1,30 +1,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ZenFM\n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: jpiebrig <jpv69005@gmx.fr>\n"
-"Language-Team: \n"
-"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.4.2\n"
+"Language: fr\n"
 
-msgid ""
-"%s wants to send %s\n"
-"\n"
-"Type: %s\n"
-"Files: %d\n"
-"Size: %s\n"
-"Fingerprint: …%s"
-msgstr ""
-"%s souhaite envoyer %s\n"
-"\n"
-"Type : %s\n"
-"Fichiers : %d\n"
-"Taille : %s\n"
-"Empreinte : …%s"
+msgid "%s wants to send %s\n\nType: %s\nFiles: %d\nSize: %s\nFingerprint: …%s"
+msgstr "%s souhaite envoyer %s\n\nType : %s\nFichiers : %d\nTaille : %s\nEmpreinte : …%s"
 
 msgid "%s — %d%%"
 msgstr "%s — %d%%"
@@ -84,7 +67,7 @@ msgid "Cancel transfer"
 msgstr "Annuler le transfert"
 
 msgid "Change password"
-msgstr "Modifier le mot de passe"
+msgstr "Changer le mot de passe"
 
 msgid "Checking for a ZenFM update…"
 msgstr "Recherche d'une mise à jour ZenFM…"
@@ -114,13 +97,13 @@ msgid "Confirm password"
 msgstr "Confirmation du nouveau mot de passe"
 
 msgid "Copied"
-msgstr "Lien copié"
+msgstr "Copié"
 
 msgid "Copy"
 msgstr "Copier"
 
 msgid "Copy link"
-msgstr "Copier le lien de téléchargement dans le presse-papier"
+msgstr "Copier le lien"
 
 msgid "Copy this token now. It will not be shown again."
 msgstr "Copiez ce jeton maintenant. Il ne sera plus affiché."
@@ -132,7 +115,7 @@ msgid "Copying {{copied}} of {{total}} — {{progress}}%"
 msgstr "Copie de {{copied}} de {{total}} — {{progress}}%"
 
 msgid "Could not create a secure ZenFM Send request."
-msgstr "Impossible de créer une demande d’envoi ZenFM sécurisée."
+msgstr "Impossible de créer une requête ZenFM Send sécurisée."
 
 msgid "Could not read the Android companion result"
 msgstr "Impossible de lire le résultat du compagnon Android"
@@ -150,16 +133,16 @@ msgid "Create token"
 msgstr "Créer un jeton"
 
 msgid "Current password"
-msgstr "Mot de Passe actuel"
+msgstr "Mot de passe actuel"
 
 msgid "Custom root (blank uses device default)"
-msgstr "Racine personnalisée (le vide utilise la valeur par défaut de l'appareil)"
+msgstr "Racine personnalisée (sans valeur, celle par défaut de l'appareil est utilisée)"
 
 msgid "Dark"
 msgstr "Sombre"
 
 msgid "Date modified"
-msgstr "Dernière modification"
+msgstr "Date de modification"
 
 msgid "Decline"
 msgstr "Baisse"
@@ -174,7 +157,7 @@ msgid "Destination folder"
 msgstr "Dossier de destination"
 
 msgid "Destination path"
-msgstr "Chemin d'arrivée"
+msgstr "Chemin de destination"
 
 msgid "Discard"
 msgstr "Jeter"
@@ -183,7 +166,7 @@ msgid "Download"
 msgstr "Télécharger"
 
 msgid "Edit"
-msgstr "Editer comme Texte"
+msgstr "Editer"
 
 msgid "Editing {{name}}"
 msgstr "Modification de {{name}}"
@@ -207,7 +190,7 @@ msgid "File name"
 msgstr "Nom de fichier"
 
 msgid "File or folder path"
-msgstr "Chemin"
+msgstr "Chemin d'accès au fichier ou au dossier"
 
 msgid "Files"
 msgstr "Fichiers"
@@ -282,7 +265,7 @@ msgid "Login reset. Use koreader123456789 and choose a new password."
 msgstr "Réinitialisation de la connexion. Utilisez koreader123456789 et choisissez un nouveau mot de passe."
 
 msgid "Looking for ZenFM devices…"
-msgstr "À la recherche d'appareils ZenFM…"
+msgstr "Recherche d'appareils ZenFM…"
 
 msgid "Move"
 msgstr "Déplacer"
@@ -300,13 +283,13 @@ msgid "New folder"
 msgstr "Nouveau dossier"
 
 msgid "New password"
-msgstr "Votre nouveau mot de passe"
+msgstr "Nouveau mot de passe"
 
 msgid "New Password"
 msgstr "Nouveau mot de passe"
 
 msgid "Next match"
-msgstr "Prochaine correspondance"
+msgstr "Prochain correspondance"
 
 msgid "No matches"
 msgstr "Aucune correspondance"
@@ -321,10 +304,10 @@ msgid "not configured"
 msgstr "non configuré"
 
 msgid "Nothing here yet"
-msgstr "C'est un peu désert ici"
+msgstr "Il n'y a encore rien ici"
 
 msgid "Open"
-msgstr "Prévisualiser"
+msgstr "Ouvrir"
 
 msgid "Optional password"
 msgstr "Mot de passe optionnel"
@@ -357,7 +340,7 @@ msgid "Preview is unavailable for this file."
 msgstr "L'aperçu n'est pas disponible pour ce fichier."
 
 msgid "Previous match"
-msgstr "Match précédent"
+msgstr "Correspondance précédente"
 
 msgid "Received %s in %s"
 msgstr "%s reçu dans %s"
@@ -411,13 +394,13 @@ msgid "Save and close"
 msgstr "Enregistrer et fermer"
 
 msgid "Save changes"
-msgstr "Enregistrer changements"
+msgstr "Enregistrer les modifications"
 
 msgid "Save changes before closing?"
 msgstr "Enregistrer les modifications avant de fermer ?"
 
 msgid "Save settings"
-msgstr "Enregistrer"
+msgstr "Enregistrer les paramètres"
 
 msgid "Saved. Restart ZenFM to apply the change."
 msgstr "Sauvé. Redémarrez ZenFM pour appliquer la modification."
@@ -447,13 +430,13 @@ msgid "Shared files"
 msgstr "Fichiers partagés"
 
 msgid "Shared links"
-msgstr "Gestion des partages"
+msgstr "Liens partagés"
 
 msgid "Shared with ZenFM"
 msgstr "Partagé avec ZenFM"
 
 msgid "Shares"
-msgstr "Actions"
+msgstr "Partages"
 
 msgid "Show hidden files"
 msgstr "Afficher les fichiers cachés"
@@ -486,7 +469,7 @@ msgid "Status and address"
 msgstr "Statut et adresse"
 
 msgid "Stop waiting for ordinary server requests after this many seconds."
-msgstr "Arrêtez d'attendre les requêtes ordinaires du serveur après autant de secondes."
+msgstr "Arrêtez d'attendre les requêtes ordinaires du serveur après ce nombre de secondes."
 
 msgid "Stop ZenFM"
 msgstr "Arrêtez ZenFM"
@@ -498,13 +481,13 @@ msgid "Switch to light mode"
 msgstr "Passer en mode lumière"
 
 msgid "System"
-msgstr "Par défaut du système"
+msgstr "Système"
 
 msgid "Temporary password"
 msgstr "Mot de passe temporaire"
 
 msgid "Text editor"
-msgstr "Editer comme Texte"
+msgstr "Éditeur de texte"
 
 msgid "The password is incorrect."
 msgstr "Le mot de passe est incorrect."
@@ -537,34 +520,34 @@ msgid "Total copy progress"
 msgstr "Progression totale de la copie"
 
 msgid "Total upload progress"
-msgstr "Progression totale du téléchargement"
+msgstr "Progression totale de l'envoi'"
 
 msgid "Unlock"
-msgstr "Ouvrir"
+msgstr "Déverrouiller"
 
 msgid "Update"
 msgstr "Mise à jour"
 
 msgid "Upload"
-msgstr "Importer"
+msgstr "Envoyer"
 
 msgid "Upload a file or create one."
-msgstr "Téléchargez un fichier ou créez-en un."
+msgstr "Envoyer un fichier ou créez-en un."
 
 msgid "Upload files"
-msgstr "Télécharger des fichiers"
+msgstr "Envoyer des fichiers"
 
 msgid "Upload folder"
-msgstr "Télécharger le dossier"
+msgstr "Envoyer le dossier"
 
 msgid "Uploading {{name}} — {{progress}}%"
-msgstr "Téléchargement de {{name}} — {{progress}}%"
+msgstr "Envoi de {{name}} — {{progress}}%"
 
 msgid "Uploading · {{completed}} of {{count}} files complete · {{name}}"
-msgstr "Téléchargement · {{completed}} fichiers sur {{count}} terminés · {{name}}"
+msgstr "Envoi · {{completed}} fichiers sur {{count}} terminés · {{name}}"
 
 msgid "Use Advanced root to expose /. Custom roots cannot contain . or .. components."
-msgstr "Utilisez Advanced Root pour exposer /. Les racines personnalisées ne peuvent pas contenir de fichiers . ou .. composants."
+msgstr "Utilisez le mode racine avancée pour exposer /. Les racines personnalisées ne peuvent pas contenir de fichiers . ou .. composants."
 
 msgid "Use an absolute path beginning with /."
 msgstr "Utilisez un chemin absolu commençant par /."
@@ -612,7 +595,7 @@ msgid "ZenFM Send failed."
 msgstr "Échec de l'envoi ZenFM."
 
 msgid "ZenFM Send requires HTTPS."
-msgstr "ZenFM Send nécessite le protocole HTTPS."
+msgstr "L'envoi ZenFM nécessite HTTPS."
 
 msgid "ZenFM started."
 msgstr "ZenFM a démarré."
@@ -645,7 +628,7 @@ msgid "{{current}} of {{total}}"
 msgstr "{{current}} sur {{total}}"
 
 msgid "{{name}} already exists. Apply this choice to all conflicts in this upload."
-msgstr "{{name}} existe déjà. Appliquez ce choix à tous les conflits dans ce téléchargement."
+msgstr "{{name}} existe déjà. Appliquez ce choix à tous les conflits dans cet envoi."
 
 msgid "{{uploaded}} of {{total}} — {{progress}}%"
 msgstr "{{uploaded}} sur {{total}} — {{progress}}%"
