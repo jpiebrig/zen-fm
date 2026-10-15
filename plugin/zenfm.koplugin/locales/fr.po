@@ -34,13 +34,13 @@ msgid "Accept"
 msgstr "Accepter"
 
 msgid "Advanced root mode is active. System files, device paths, and ZenFM secrets are visible and may be changed or deleted."
-msgstr "Le mode racine avancé est actif. Les fichiers système, les chemins d'accès aux appareils et les secrets ZenFM sont visibles et peuvent être modifiés ou supprimés."
+msgstr "Le mode Advanced-Root est actif. Les fichiers système, les chemins d'accès aux appareils et les secrets ZenFM sont visibles et peuvent être modifiés ou supprimés."
 
 msgid "Advanced root mode serves /. It exposes /proc, /sys, /dev, ZenFM's database, certificates, logs, and every file the process can access. Editing or deleting them can damage the device or lock you out."
-msgstr "Le mode racine avancé sert /. Il expose /proc, /sys, /dev, la base de données de ZenFM, les certificats, les journaux et tous les fichiers auxquels le processus peut accéder. Les modifier ou les supprimer peut endommager l'appareil ou vous bloquer."
+msgstr "Le mode Advanced-Root sert /. Il expose /proc, /sys, /dev, la base de données de ZenFM, les certificats, les journaux et tous les fichiers auxquels le processus peut accéder. Les modifier ou les supprimer peut endommager l'appareil ou vous bloquer."
 
 msgid "Advanced root: expose /"
-msgstr "Racine avancée : exposer /"
+msgstr "Advanced-Root : exposer /"
 
 msgid "Android companion APK: opening updater…"
 msgstr "APK compagnon Android : ouverture du programme de mise à jour…"
@@ -94,7 +94,7 @@ msgid "Confirm"
 msgstr "Confirmer"
 
 msgid "Confirm password"
-msgstr "Confirmation du nouveau mot de passe"
+msgstr "Confirmation du mot de passe"
 
 msgid "Copied"
 msgstr "Copié"
@@ -115,7 +115,7 @@ msgid "Copying {{copied}} of {{total}} — {{progress}}%"
 msgstr "Copie de {{copied}} de {{total}} — {{progress}}%"
 
 msgid "Could not create a secure ZenFM Send request."
-msgstr "Impossible de créer une requête ZenFM Send sécurisée."
+msgstr "Impossible de créer une requête d'envoi ZenFM sécurisée."
 
 msgid "Could not read the Android companion result"
 msgstr "Impossible de lire le résultat du compagnon Android"
@@ -133,7 +133,7 @@ msgid "Create token"
 msgstr "Créer un jeton"
 
 msgid "Current password"
-msgstr "Mot de passe actuel"
+msgstr "Mot de Passe actuel"
 
 msgid "Custom root (blank uses device default)"
 msgstr "Racine personnalisée (sans valeur, celle par défaut de l'appareil est utilisée)"
@@ -142,7 +142,7 @@ msgid "Dark"
 msgstr "Sombre"
 
 msgid "Date modified"
-msgstr "Date de modification"
+msgstr "Dernière modification"
 
 msgid "Decline"
 msgstr "Baisse"
@@ -259,7 +259,7 @@ msgid "Listening port:"
 msgstr "Port d'écoute :"
 
 msgid "Loading…"
-msgstr "Chargement…"
+msgstr "Chargement..."
 
 msgid "Login reset. Use koreader123456789 and choose a new password."
 msgstr "Réinitialisation de la connexion. Utilisez koreader123456789 et choisissez un nouveau mot de passe."
@@ -289,7 +289,7 @@ msgid "New Password"
 msgstr "Nouveau mot de passe"
 
 msgid "Next match"
-msgstr "Prochain correspondance"
+msgstr "Correspondance suivante"
 
 msgid "No matches"
 msgstr "Aucune correspondance"
@@ -328,7 +328,7 @@ msgid "Personal API token"
 msgstr "Jeton API personnel"
 
 msgid "Personal API tokens"
-msgstr "Jetons d'API personnels"
+msgstr "Jetons API personnels"
 
 msgid "Port must be between 1 and 65535."
 msgstr "Le port doit être compris entre 1 et 65535."
@@ -340,7 +340,7 @@ msgid "Preview is unavailable for this file."
 msgstr "L'aperçu n'est pas disponible pour ce fichier."
 
 msgid "Previous match"
-msgstr "Correspondance précédente"
+msgstr "Correspondance précédente" 
 
 msgid "Received %s in %s"
 msgstr "%s reçu dans %s"
@@ -388,13 +388,13 @@ msgid "Root: "
 msgstr "Racine : "
 
 msgid "Save"
-msgstr "Sauvegarder"
+msgstr "Enregistrer"
 
 msgid "Save and close"
 msgstr "Enregistrer et fermer"
 
 msgid "Save changes"
-msgstr "Enregistrer les modifications"
+msgstr "Enregistrer les changements"
 
 msgid "Save changes before closing?"
 msgstr "Enregistrer les modifications avant de fermer ?"
@@ -403,7 +403,7 @@ msgid "Save settings"
 msgstr "Enregistrer les paramètres"
 
 msgid "Saved. Restart ZenFM to apply the change."
-msgstr "Sauvé. Redémarrez ZenFM pour appliquer la modification."
+msgstr "Enregistré. Redémarrez ZenFM pour appliquer la modification."
 
 msgid "Search results"
 msgstr "Résultats de la recherche"
@@ -436,7 +436,7 @@ msgid "Shared with ZenFM"
 msgstr "Partagé avec ZenFM"
 
 msgid "Shares"
-msgstr "Partages"
+msgstr "Actions"
 
 msgid "Show hidden files"
 msgstr "Afficher les fichiers cachés"
@@ -469,7 +469,7 @@ msgid "Status and address"
 msgstr "Statut et adresse"
 
 msgid "Stop waiting for ordinary server requests after this many seconds."
-msgstr "Arrêtez d'attendre les requêtes ordinaires du serveur après ce nombre de secondes."
+msgstr "Arrêtez d'attendre les requêtes ordinaires du serveur après autant de secondes."
 
 msgid "Stop ZenFM"
 msgstr "Arrêtez ZenFM"
@@ -487,13 +487,13 @@ msgid "Temporary password"
 msgstr "Mot de passe temporaire"
 
 msgid "Text editor"
-msgstr "Éditeur de texte"
+msgstr "Editeur de texte"
 
 msgid "The password is incorrect."
 msgstr "Le mot de passe est incorrect."
 
 msgid "The receiver declined the ZenFM transfer."
-msgstr "Le destinataire a refusé le transfert de ZenFM."
+msgstr "Le destinataire a refusé le transfert ZenFM."
 
 msgid "Theme"
 msgstr "Thème"
@@ -505,7 +505,7 @@ msgid "This file has unsaved changes."
 msgstr "Ce fichier comporte des modifications non enregistrées."
 
 msgid "This file is too large or unsupported for safe editing."
-msgstr "Ce fichier est trop volumineux ou n'est pas pris en charge pour une modification en toute sécurité."
+msgstr "Ce fichier est trop volumineux ou n'est pas pris en charge pour une modification sûre."
 
 msgid "This link is unavailable or has expired."
 msgstr "Ce lien n'est pas disponible ou a expiré."
@@ -520,34 +520,34 @@ msgid "Total copy progress"
 msgstr "Progression totale de la copie"
 
 msgid "Total upload progress"
-msgstr "Progression totale de l'envoi'"
+msgstr "Progression totale de l'import"
 
 msgid "Unlock"
-msgstr "Déverrouiller"
+msgstr "Ouvrir"
 
 msgid "Update"
 msgstr "Mise à jour"
 
 msgid "Upload"
-msgstr "Envoyer"
+msgstr "Importer"
 
 msgid "Upload a file or create one."
-msgstr "Envoyer un fichier ou créez-en un."
+msgstr "Importer un fichier ou créez-en un."
 
 msgid "Upload files"
-msgstr "Envoyer des fichiers"
+msgstr "Importer des fichiers"
 
 msgid "Upload folder"
-msgstr "Envoyer le dossier"
+msgstr "Dossier d'importation'"
 
 msgid "Uploading {{name}} — {{progress}}%"
-msgstr "Envoi de {{name}} — {{progress}}%"
+msgstr "Importation de {{name}} — {{progress}}%"
 
 msgid "Uploading · {{completed}} of {{count}} files complete · {{name}}"
-msgstr "Envoi · {{completed}} fichiers sur {{count}} terminés · {{name}}"
+msgstr "Importation · {{completed}} de {{count}} fichiers terminée · {{name}}"
 
 msgid "Use Advanced root to expose /. Custom roots cannot contain . or .. components."
-msgstr "Utilisez le mode racine avancée pour exposer /. Les racines personnalisées ne peuvent pas contenir de fichiers . ou .. composants."
+msgstr "Utilisez Advanced-Root pour afficher /. Les racines personnalisées ne peuvent pas contenir de fichiers . ou .. composants."
 
 msgid "Use an absolute path beginning with /."
 msgstr "Utilisez un chemin absolu commençant par /."
@@ -562,7 +562,7 @@ msgid "Version"
 msgstr "Version"
 
 msgid "Warning: advanced root mode exposes the entire filesystem, including ZenFM state and certificates."
-msgstr "Attention : le mode racine avancé expose l'intégralité du système de fichiers, y compris l'état et les certificats ZenFM."
+msgstr "Attention : le mode Advanced-Root affiche l'intégralité du système de fichiers, y compris l'état et les certificats ZenFM."
 
 msgid "Warning: unencrypted HTTP is enabled."
 msgstr "Attention : HTTP non chiffré est activé."
@@ -574,7 +574,7 @@ msgid "ZenFM"
 msgstr "ZenFM"
 
 msgid "ZenFM device discovery failed."
-msgstr "Échec de la détection de l'appareil ZenFM."
+msgstr "Échec de détection de l'appareil ZenFM."
 
 msgid "ZenFM is running."
 msgstr "ZenFM est en cours d'exécution."
@@ -592,7 +592,7 @@ msgid "ZenFM Send"
 msgstr "Envoi ZenFM"
 
 msgid "ZenFM Send failed."
-msgstr "Échec de l'envoi ZenFM."
+msgstr "Échec de l'envoi ZenFM'"
 
 msgid "ZenFM Send requires HTTPS."
 msgstr "L'envoi ZenFM nécessite HTTPS."
