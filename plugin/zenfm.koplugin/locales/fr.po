@@ -94,7 +94,7 @@ msgid "Confirm"
 msgstr "Confirmer"
 
 msgid "Confirm password"
-msgstr "Confirmation le mot de passe"
+msgstr "Confirmation du mot de passe"
 
 msgid "Copied"
 msgstr "Copié"
