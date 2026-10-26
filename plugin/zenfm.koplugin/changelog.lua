@@ -64,5 +64,9 @@ return {
         "Use Ctrl/Cmd + A to select all in any file",
         "Zen search in preview"
     },
+    ["1.2.2"] = {
+        "Open unknown filetypes as text files (i.e .conf, no extension etc)",
+        "Bug fixes"
+    },
 
 }

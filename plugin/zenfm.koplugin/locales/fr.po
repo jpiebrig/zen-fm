@@ -34,13 +34,13 @@ msgid "Accept"
 msgstr "Accepter"
 
 msgid "Advanced root mode is active. System files, device paths, and ZenFM secrets are visible and may be changed or deleted."
-msgstr "Le mode Racine Avancé est actif. Les fichiers système, les chemins d'accès aux appareils et les secrets ZenFM sont visibles et peuvent être modifiés ou supprimés."
+msgstr "Le mode Advanced-Root est actif. Les fichiers système, les chemins d'accès aux appareils et les secrets ZenFM sont visibles et peuvent être modifiés ou supprimés."
 
 msgid "Advanced root mode serves /. It exposes /proc, /sys, /dev, ZenFM's database, certificates, logs, and every file the process can access. Editing or deleting them can damage the device or lock you out."
-msgstr "Le mode Racine Avancé sert /. Il expose /proc, /sys, /dev, la base de données de ZenFM, les certificats, les journaux et tous les fichiers auxquels le processus peut accéder. Les modifier ou les supprimer peut endommager l'appareil ou vous bloquer."
+msgstr "Le mode Advanced-Root sert /. Il expose /proc, /sys, /dev, la base de données de ZenFM, les certificats, les journaux et tous les fichiers auxquels le processus peut accéder. Les modifier ou les supprimer peut endommager l'appareil ou vous bloquer."
 
 msgid "Advanced root: expose /"
-msgstr "Racine Avancée : exposer /"
+msgstr "Advanced-Root : exposer /"
 
 msgid "Android companion APK: opening updater…"
 msgstr "APK compagnon Android : ouverture du programme de mise à jour…"
@@ -64,7 +64,7 @@ msgid "Cancel"
 msgstr "Annuler"
 
 msgid "Cancel transfer"
-msgstr "Annuler le tranfert"
+msgstr "Annuler le transfert"
 
 msgid "Change password"
 msgstr "Changer le mot de passe"
@@ -115,7 +115,7 @@ msgid "Copying {{copied}} of {{total}} — {{progress}}%"
 msgstr "Copie de {{copied}} de {{total}} — {{progress}}%"
 
 msgid "Could not create a secure ZenFM Send request."
-msgstr "Impossible de créer une requête ZenFM sécurisée."
+msgstr "Impossible de créer une requête d'envoi ZenFM sécurisée."
 
 msgid "Could not read the Android companion result"
 msgstr "Impossible de lire le résultat du compagnon Android"
@@ -133,7 +133,7 @@ msgid "Create token"
 msgstr "Créer un jeton"
 
 msgid "Current password"
-msgstr "Mot de passe actuel"
+msgstr "Mot de Passe actuel"
 
 msgid "Custom root (blank uses device default)"
 msgstr "Racine personnalisée (sans valeur, celle par défaut de l'appareil est utilisée)"
@@ -145,7 +145,7 @@ msgid "Date modified"
 msgstr "Date de modification"
 
 msgid "Decline"
-msgstr "Refuser"
+msgstr "Baisse"
 
 msgid "Delete"
 msgstr "Supprimer"
@@ -166,7 +166,7 @@ msgid "Download"
 msgstr "Télécharger"
 
 msgid "Edit"
-msgstr "Modifier"
+msgstr "Editer"
 
 msgid "Editing {{name}}"
 msgstr "Modification de {{name}}"
@@ -289,7 +289,7 @@ msgid "New Password"
 msgstr "Nouveau mot de passe"
 
 msgid "Next match"
-msgstr "Prochaine correspondance"
+msgstr "Correspondance suivante"
 
 msgid "No matches"
 msgstr "Aucune correspondance"
@@ -304,7 +304,7 @@ msgid "not configured"
 msgstr "non configuré"
 
 msgid "Nothing here yet"
-msgstr "C'est un peu désert ici…"
+msgstr "Il n'y a encore rien ici"
 
 msgid "Open"
 msgstr "Ouvrir"
@@ -328,19 +328,19 @@ msgid "Personal API token"
 msgstr "Jeton API personnel"
 
 msgid "Personal API tokens"
-msgstr "Jetons d'API personnels"
+msgstr "Jetons API personnels"
 
 msgid "Port must be between 1 and 65535."
 msgstr "Le port doit être compris entre 1 et 65535."
 
 msgid "Port: "
-msgstr "Port: "
+msgstr "Port : "
 
 msgid "Preview is unavailable for this file."
 msgstr "L'aperçu n'est pas disponible pour ce fichier."
 
 msgid "Previous match"
-msgstr "Correspondance précédente"
+msgstr "Correspondance précédente" 
 
 msgid "Received %s in %s"
 msgstr "%s reçu dans %s"
@@ -388,28 +388,28 @@ msgid "Root: "
 msgstr "Racine: "
 
 msgid "Save"
-msgstr "Sauvegarder"
+msgstr "Enregistrer"
 
 msgid "Save and close"
 msgstr "Sauvegarder et fermer"
 
 msgid "Save changes"
-msgstr "Sauvegarder les changements"
+msgstr "Enregistrer les changements"
 
 msgid "Save changes before closing?"
 msgstr "Sauvegarder les modifications avant de fermer ?"
 
 msgid "Save settings"
-msgstr "Sauvegarder les paramètres"
+msgstr "Enregistrer les paramètres"
 
 msgid "Saved. Restart ZenFM to apply the change."
-msgstr "Sauvé. Redémarrez ZenFM pour appliquer la modification."
+msgstr "Enregistré. Redémarrez ZenFM pour appliquer la modification."
 
 msgid "Search results"
 msgstr "Résultats de la recherche"
 
 msgid "Search this folder"
-msgstr "Recherche dans ce dossier"
+msgstr "Rechercher dans ce dossier"
 
 msgid "Send with ZenFM"
 msgstr "Envoyer avec ZenFM"
@@ -487,13 +487,13 @@ msgid "Temporary password"
 msgstr "Mot de passe temporaire"
 
 msgid "Text editor"
-msgstr "Éditeur de texte"
+msgstr "Editeur de texte"
 
 msgid "The password is incorrect."
 msgstr "Le mot de passe est incorrect."
 
 msgid "The receiver declined the ZenFM transfer."
-msgstr "Le destinataire a refusé le transfert de ZenFM."
+msgstr "Le destinataire a refusé le transfert ZenFM."
 
 msgid "Theme"
 msgstr "Thème"
@@ -505,7 +505,7 @@ msgid "This file has unsaved changes."
 msgstr "Ce fichier comporte des modifications non sauvegardées."
 
 msgid "This file is too large or unsupported for safe editing."
-msgstr "Ce fichier est trop volumineux ou n'est pas pris en charge pour une modification en toute sécurité."
+msgstr "Ce fichier est trop volumineux ou n'est pas pris en charge pour une modification sûre."
 
 msgid "This link is unavailable or has expired."
 msgstr "Ce lien n'est pas disponible ou a expiré."
@@ -520,7 +520,7 @@ msgid "Total copy progress"
 msgstr "Progression totale de la copie"
 
 msgid "Total upload progress"
-msgstr "Progression totale du téléversement"
+msgstr "Progression totale de l'import"
 
 msgid "Unlock"
 msgstr "Déverrouiller"
@@ -532,22 +532,22 @@ msgid "Upload"
 msgstr "Téléverser"
 
 msgid "Upload a file or create one."
-msgstr "Téléverser un fichier ou créez-en un."
+msgstr "Importer un fichier ou créez-en un."
 
 msgid "Upload files"
-msgstr "Téléverser des fichiers"
+msgstr "Importer des fichiers"
 
 msgid "Upload folder"
-msgstr "Téléverser le dossier"
+msgstr "Dossier d'importation'"
 
 msgid "Uploading {{name}} — {{progress}}%"
-msgstr "Téléversement de {{name}} — {{progress}}%"
+msgstr "Importation de {{name}} — {{progress}}%"
 
 msgid "Uploading · {{completed}} of {{count}} files complete · {{name}}"
-msgstr "Téléversement · {{completed}} fichiers sur {{count}} terminés · {{name}}"
+msgstr "Importation · {{completed}} de {{count}} fichiers terminée · {{name}}"
 
 msgid "Use Advanced root to expose /. Custom roots cannot contain . or .. components."
-msgstr "Utilisez Racine Avancé pour exposer le répertoire « / ». Les répertoires racine personnalisés ne peuvent pas contenir les éléments « . » ou « .. »."
+msgstr "Utilisez Advanced-Root pour afficher /. Les racines personnalisées ne peuvent pas contenir de fichiers . ou .. composants."
 
 msgid "Use an absolute path beginning with /."
 msgstr "Utilisez un chemin absolu commençant par /."
@@ -562,7 +562,7 @@ msgid "Version"
 msgstr "Version"
 
 msgid "Warning: advanced root mode exposes the entire filesystem, including ZenFM state and certificates."
-msgstr "Attention : le mode Racine Avancé expose l'intégralité du système de fichiers, y compris l'état et les certificats ZenFM."
+msgstr "Attention : le mode Advanced-Root affiche l'intégralité du système de fichiers, y compris l'état et les certificats ZenFM."
 
 msgid "Warning: unencrypted HTTP is enabled."
 msgstr "Attention : HTTP non chiffré est activé."
@@ -592,10 +592,10 @@ msgid "ZenFM Send"
 msgstr "Envoi ZenFM"
 
 msgid "ZenFM Send failed."
-msgstr "Échec de l'envoi vers ZenFM."
+msgstr "Échec de l'envoi ZenFM'"
 
 msgid "ZenFM Send requires HTTPS."
-msgstr "ZenFM Send nécessite le protocole HTTPS."
+msgstr "L'envoi ZenFM nécessite HTTPS."
 
 msgid "ZenFM started."
 msgstr "ZenFM a démarré."
@@ -628,7 +628,7 @@ msgid "{{current}} of {{total}}"
 msgstr "{{current}} sur {{total}}"
 
 msgid "{{name}} already exists. Apply this choice to all conflicts in this upload."
-msgstr "{{name}} existe déjà. Appliquez ce choix à tous les conflits dans ce téléversement."
+msgstr "{{name}} existe déjà. Appliquez ce choix à tous les conflits dans cet envoi."
 
 msgid "{{uploaded}} of {{total}} — {{progress}}%"
 msgstr "{{uploaded}} sur {{total}} — {{progress}}%"
